@@ -488,7 +488,7 @@ doExit() {
 ## 7. Cancel Editing
 The `cancelEdit` method is used to cancel the editing state, calling the `editor.onEnd` method and clearing the editor.
 ## Flowchart
-Temporarily unable to display this content outside Feishu documents
+![VTable Data Editing Flowchart](https://raw.githubusercontent.com/3Justice/articles/main/VTable/img/VTable-DataEditing-FlowChart.png)
 # 5. Practical Application
 In the current project, the `EditManager` class in `edit-manager.ts` provides support for table editing functionality, while `PivotTable.ts` and `ListTable.ts` utilize this class to implement their respective table editing functionalities. Below is a detailed introduction to the application of `EditManager` in these two files:
 ### Application in `PivotTable.ts`
